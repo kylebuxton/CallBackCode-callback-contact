@@ -1,0 +1,16 @@
+{
+  "name": "callback-contact",
+  "private": true,
+  "scripts": {
+    "dev": "TAILWIND_DISABLE_OXIDE=true npx nuxi dev",
+    "build": "TAILWIND_DISABLE_OXIDE=true npx nuxi build",
+    "start": "node .output/server/index.mjs"
+  },
+  "dependencies": {
+    "@nuxt/cli": "^3.11.1",
+    "@nuxt/ui-pro": "^3.0.2",
+    "firebase": "^9.23.0",
+    "nuxt": "^3.11.1",
+    "pinia": "^2.1.7"
+  }
+}
